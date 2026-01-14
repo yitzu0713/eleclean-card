@@ -14,21 +14,20 @@ body {
 }
 .card-container {
     width: 33.333%;
-    margin: 3rem auto 0;
-    padding-top: 2rem;
+    margin: 0 auto;
     background: #f0f0f0;
     border-radius: 0 0 30px 30px;
 }
 
-/* .card-header {
+.card-header {
     text-align: center;
     background: #FFF;
     box-shadow: 1px 5px 5px #f0f0f0;
     margin-bottom: 1.5rem;
-} */
-/* .card-header img {
+}
+.card-header img {
     max-width: 10rem !important;
-} */
+}
 .card-profile-section {
     text-align: center;
     padding-bottom: 1.5rem;
@@ -75,6 +74,10 @@ body {
     box-sizing: border-box;
 }
 
+.card-information > div {
+    margin-top: -3rem;
+}
+
 .card-information::before {
     display: block;
     content: "";
@@ -91,7 +94,7 @@ body {
     font-size: 0.8rem;
     position: relative;
     width: 15rem;
-    margin: 2rem auto 1rem;
+    margin: 1rem auto .5rem;
 }
 
 .card-title::before {
@@ -148,10 +151,6 @@ a {
 @media screen and (max-width: 768px) {
     .card-container {
         width: 100%;
-        margin: 3rem auto 0;
-        padding-top: 2rem;
-        background: #f0f0f0;
-        border-radius: 0 0 30px 30px;
     }
     .card-information::before {
         position: absolute;
@@ -166,32 +165,34 @@ a {
 </style>
 <body>
     <div class="card-container"> 
-        <!-- <div class="card-header">
+        <div class="card-header">
             <img src="img/eleclean-logo.png" alt="">
-        </div> -->
+        </div>
         <div class="card-profile-section">
             <img class="card-profile" src="img/ch-white.jpg" alt="">
             <div class="card-profile-name">陳建宏 <span>Dr. Cgien-Hung Chen</span></div>
             <div class="card-profile-title">執行長 <span>CEO</span></div>
         </div>
         <div class="card-information">
-            <div class="card-title">聯絡資訊</div>
-            <div class="card-item">
-                <p>行動電話</p>
-                <a href="tel:0955568835">0955-568-835</a>
-            </div>
-            <div class="card-item">
-                <p>電子信箱</p>
-                <a href="mailto:ch@eleclean.com.tw">ch@eleclean.com.tw</a>
-            </div>
-            <div class="card-title">公司資訊</div>
-            <div class="card-item ">
-                <p>創淨科技股份有限公司</p>
-                <a href="https://maps.app.goo.gl/m1Gj48uhkvhB4QvQ6" target="_blank">新竹縣竹北市福興路520號</a>
-            </div>
-            <div class="card-item">
-                <p>聯絡電話</p>
-                <a href="tel:036218577">03-621-8577</a>
+            <div>
+                <div class="card-title">聯絡資訊</div>
+                <div class="card-item">
+                    <p>行動電話</p>
+                    <a href="tel:0955568835">0955-568-835</a>
+                </div>
+                <div class="card-item">
+                    <p>電子信箱</p>
+                    <a href="mailto:ch@eleclean.com.tw">ch@eleclean.com.tw</a>
+                </div>
+                <div class="card-title">公司資訊</div>
+                <div class="card-item ">
+                    <p>創淨科技股份有限公司</p>
+                    <a href="https://maps.app.goo.gl/m1Gj48uhkvhB4QvQ6" target="_blank">新竹縣竹北市福興路520號</a>
+                </div>
+                <div class="card-item">
+                    <p>聯絡電話</p>
+                    <a href="tel:036218577">03-621-8577</a>
+                </div>
             </div>
         </div>
     </div>
