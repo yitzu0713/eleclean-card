@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECLEAN 創淨科技-陳建宏-電子名片</title>
+</head>
+<style>
+body {
+ background: #c9edf9;
+ padding: 0 !important;
+ margin: 0 !important;
+ font-size: 0.75rem;
+}
+.card-container {
+    width: 33.333%;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    background: #f0f0f0;
+    border-radius: 0 0 30px 30px;
+}
+
+/* .card-header {
+    text-align: center;
+    background: #FFF;
+    box-shadow: 1px 5px 5px #f0f0f0;
+    margin-bottom: 1.5rem;
+} */
+/* .card-header img {
+    max-width: 10rem !important;
+} */
+.card-profile-section {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.card-profile {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10rem;
+    height: 10rem;
+    transition: .2s;
+}
+.card-profile:hover {
+    box-shadow: 0 0 20px #fff;
+    transition: .5s;
+}
+.card-profile img {
+    width: 10rem;
+    height: 10rem;
+}
+.card-profile-name {
+    color: #38a1db;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.card-profile-name span {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.card-profile-title {
+    color: #757575;
+    font-size: .7rem;
+}
+
+.card-information {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    border-radius: 0 0 30px 30px;
+    margin: 3rem auto 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card-information::before {
+    display: block;
+    content: "";
+    background: url(http://cdn1.cybassets.com/s/files/35023/ckeditor/pictures/content_7c69d445-8c15-4791-9bf4-bbb128e6218c.png) no-repeat top center / cover;
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    top: -5rem;
+    left: 0;
+}
+
+.card-title {
+    color: #757575;
+    font-size: 0.8rem;
+    position: relative;
+    width: 15rem;
+    margin: 2rem auto 1rem;
+}
+
+.card-title::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: calc(50% - .0025rem);
+    left: 0;
+    height: 0.05rem;
+    width: 5rem;
+    background: #b3b3b3;
+}
+
+.card-title::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: calc(50% - .0025rem);
+    right: 0;
+    height: 0.05rem;
+    width: 5rem;
+    background: #b3b3b3;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 0 auto .25rem;
+}
+
+.card-item p {
+    margin: 0 1rem 0 0;
+
+}
+
+.card-item.vertical {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item.vertical p {
+    margin-right: 0;
+}
+
+a {
+    color: #38a1db;
+    text-decoration: none;
+    margin-bottom: -4px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 100%;
+        margin: 3rem auto 0;
+        padding-top: 2rem;
+        background: #f0f0f0;
+        border-radius: 0 0 30px 30px;
+    }
+    .card-information::before {
+        position: absolute;
+        top: -3rem;
+        left: 0;
+    }
+    .card-item {
+        width: 100%;
+    }
+}
+
+</style>
+<body>
+    <div class="card-container"> 
+        <!-- <div class="card-header">
+            <img src="img/eleclean-logo.png" alt="">
+        </div> -->
+        <div class="card-profile-section">
+            <img class="card-profile" src="img/ch-white.jpg" alt="">
+            <div class="card-profile-name">陳建宏 <span>Dr. Cgien-Hung Chen</span></div>
+            <div class="card-profile-title">執行長 <span>CEO</span></div>
+        </div>
+        <div class="card-information">
+            <div class="card-title">聯絡資訊</div>
+            <div class="card-item">
+                <p>行動電話</p>
+                <a href="tel:0955568835">0955-568-835</a>
+            </div>
+            <div class="card-item">
+                <p>電子信箱</p>
+                <a href="mailto:ch@eleclean.com.tw">ch@eleclean.com.tw</a>
+            </div>
+            <div class="card-title">公司資訊</div>
+            <div class="card-item ">
+                <p>創淨科技股份有限公司</p>
+                <a href="https://maps.app.goo.gl/m1Gj48uhkvhB4QvQ6" target="_blank">新竹縣竹北市福興路520號</a>
+            </div>
+            <div class="card-item">
+                <p>聯絡電話</p>
+                <a href="tel:036218577">03-621-8577</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
